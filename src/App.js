@@ -1,9 +1,10 @@
 import './App.css';
+import { AnimacaoOlaMundo } from './components/AnimacaoOlaMundo/AnimacaoOlaMundo';
 
 function App() {
   return (
     <div className="App">
-      Ola mundo
+      <AnimacaoOlaMundo/>
     </div>
   );
 }
