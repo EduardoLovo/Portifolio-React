@@ -1,0 +1,79 @@
+.titulo {
+    color: aliceblue;
+}
+
+.contentOlaMundo {
+    text-align: center;
+}
+
+.div-animada {
+    width: 400px;
+    height: 200px;
+    background-color: #34db58a8;
+    margin: 5em auto;
+    animation: slideDown 1s ease-out, slideUp 1s ease-in 4s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.line {
+    font-family: 'VT323', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    border-right: 10px solid rgb(0, 0, 0);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-amimation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+        typing 1s steps(15) 0.7s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 5.1em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(0, 0, 0);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.titulo {
+    background-color: aqua;
+    top: 30px;
+    left: 20px;
+    margin-left: 300px;
+    /* width: 100%; */
+    position: absolute;
+}
+
+.menu {
+    background-color: #34db5875;
+    color: aliceblue;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}

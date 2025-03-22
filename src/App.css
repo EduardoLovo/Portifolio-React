@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
-  background-image: url('https://wallpaperaccess.com/full/1825871.jpg');
-  background-size: cover; /* Faz com que a imagem cubra toda a tela */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  background-attachment: fixed; /* Mantém a imagem fixa quando a página rola */
+    /* background-image: url('https://wallpaperaccess.com/full/1825871.jpg'); */
+    background-color: #121212d5;
+    background-blend-mode: multiply;
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Mantém a imagem fixa quando a página rola */
 }
 
 .App {
-  text-align: center;
+    text-align: center;
 }
